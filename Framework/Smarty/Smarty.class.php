@@ -1,6 +1,6 @@
 <?php
 /**
- * Project:     Smarty: the PHP compiling template engine
+ * Project:     Smarty: the PHP compiling template engine        view
  * File:        Smarty.class.php
  *
  * This library is free software; you can redistribute it and/or
@@ -601,7 +601,7 @@ class Smarty extends Smarty_Internal_TemplateBase
      *
      * @var array
      */
-    protected $template_dir = array('./templates/');
+    protected $template_dir = array('./View/');
 
     /**
      * flags for normalized template directory entries
